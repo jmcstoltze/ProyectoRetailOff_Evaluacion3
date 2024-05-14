@@ -66,6 +66,7 @@ Se implementó la conexión con una API AWS para agregar clientes, productos y e
 ## Screenshots
 
 Se agregó una carpeta de screenshots en la carpeta raízpara mostrar el proceso de trabajo en DynamoDB, Lambda, IAM y API Gateway.
+En dicha carpeta se encuentra todo el proceso de implementación de BD, funciones y api.
 
 ## Autor
 
