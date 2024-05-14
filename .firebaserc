@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "evaluacion2-45308": {
+      "hosting": {
+        "app": [
+          "evaluacion2-45308"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "evaluacion2-45308"
+  }
+}

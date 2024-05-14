@@ -1,0 +1,45 @@
+
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Opciones de Usuario</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <ion-icon name="information-circle"></ion-icon>
+        Información
+      </ion-item>
+
+      <ion-item href="aws">
+        <ion-icon name="card-outline"></ion-icon>
+        Venta Cliente
+      </ion-item>
+      
+      <ion-item href="history">
+        <ion-icon name="list-sharp"></ion-icon>>
+        Historial
+      </ion-item>
+
+      <ion-item href="/scan">
+        <ion-icon name="scan-circle-sharp"></ion-icon>
+        Escanear QR
+      </ion-item>
+
+      <ion-item href="/login/logged" button="true">
+        <ion-icon name="person"></ion-icon>
+        Usuario
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+<div id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+</div>

@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Volver" defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <h1 style="text-align: center;">Scannea el código</h1>
+  <br>
+
+  <ion-card>  
+    <ion-card-content>
+      <div style="text-align: center;">
+        <img  src="assets/img/qr_code.png" width="200" height="200">    
+        <br>      
+        <ion-button expand="full"
+          fill="outline"
+          size="large"
+          shape="round"
+          (click)="scan()"
+        >ESCANEAR CODIGO</ion-button>
+      </div> 
+    </ion-card-content>
+  </ion-card>  
+</ion-content>

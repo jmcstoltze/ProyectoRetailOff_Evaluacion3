@@ -1,0 +1,60 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Volver" defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <h1 style="text-align: center;">Cliente</h1>
+  <br>
+
+  <ion-item>
+    <ion-label></ion-label>
+    <ion-input [(ngModel)]="nombre_cliente" placeholder="Ingrese nombre cliente"></ion-input>    
+  </ion-item>
+
+  <ion-item>
+    <ion-label></ion-label>
+    <ion-input [(ngModel)]="email" placeholder="Ingrese email cliente"></ion-input>    
+  </ion-item>
+
+  <br><br>
+  <ion-button (click)="postCliente()">Registrar Cliente</ion-button>
+
+  <h1 style="text-align: center;">Producto</h1>
+  <br>
+  
+  <ion-item>
+    <ion-label></ion-label>
+    <ion-input [(ngModel)]="nombre_producto" placeholder="Ingrese nombre_producto"></ion-input>    
+  </ion-item>
+
+  <ion-item>
+    <ion-label></ion-label>
+    <ion-input [(ngModel)]="descripcion" placeholder="Ingrese descripcion producto"></ion-input>    
+  </ion-item>
+
+  <br><br>
+  <ion-button (click)="postProducto()">Registrar Producto</ion-button>
+
+  <h1 style="text-align: center;">Envío</h1>
+  <br>
+
+  <ion-item>
+    <ion-label></ion-label>
+    <ion-input [(ngModel)]="tipo_envio" placeholder="Ingrese tipo envío"></ion-input>    
+  </ion-item>
+
+  <ion-item>
+    <ion-label></ion-label>
+    <ion-input [(ngModel)]="direccion" placeholder="Ingrese direccion envío"></ion-input>    
+  </ion-item>
+
+  <br><br>
+  <ion-button (click)="postEnvio()">Registrar Envio</ion-button>
+</ion-content>
